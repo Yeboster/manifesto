@@ -1,8 +1,12 @@
 import { AnimatedText } from './AnimatedText';
+import { Gem } from 'lucide-react';
 
 export function KissSection() {
   return (
     <>
+      <AnimatedText className="flex justify-center mb-8">
+        <Gem size={48} />
+      </AnimatedText>
       <AnimatedText el="h2" className="font-headline text-5xl md:text-7xl lg:text-[clamp(2.5rem,10vw,8rem)] leading-none tracking-tighter uppercase">
         K.I.S.S.
       </AnimatedText>
