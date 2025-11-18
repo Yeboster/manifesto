@@ -16,7 +16,7 @@ export function StickySection({ children, className, zIndex }: StickySectionProp
       )}
       style={{ zIndex }}
     >
-      <div className="container mx-auto max-w-4xl text-center">
+      <div className="container mx-auto max-w-4xl">
         {children}
       </div>
     </section>

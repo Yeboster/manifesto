@@ -3,7 +3,7 @@ import { Handshake, Star } from 'lucide-react';
 
 export function CharismaSection() {
   return (
-    <>
+    <div className="text-center">
       <div className="flex justify-center items-center gap-4 mb-8">
         <AnimatedText>
           <Star size={48} />
@@ -18,6 +18,6 @@ export function CharismaSection() {
       <AnimatedText el="p" className="mt-4 text-lg md:text-xl max-w-2xl mx-auto font-body" delay={0.3}>
         Build bridges, not walls. Charisma is authenticity amplified. Trust is the currency of connection, earned through integrity and consistent action.
       </AnimatedText>
-    </>
+    </div>
   );
 }

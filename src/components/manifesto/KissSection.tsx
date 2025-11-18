@@ -3,7 +3,7 @@ import { Gem } from 'lucide-react';
 
 export function KissSection() {
   return (
-    <>
+    <div className="text-center">
       <AnimatedText className="flex justify-center mb-8">
         <Gem size={48} />
       </AnimatedText>
@@ -13,6 +13,6 @@ export function KissSection() {
       <AnimatedText el="p" className="mt-4 text-lg md:text-xl max-w-2xl mx-auto font-body" delay={0.3}>
         Keep It Simple, Stupid. Simplicity is the ultimate sophistication. Complexity is easy, simplicity is hard. Strive for clarity and focus in all things.
       </AnimatedText>
-    </>
+    </div>
   );
 }

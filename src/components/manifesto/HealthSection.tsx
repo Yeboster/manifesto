@@ -3,7 +3,7 @@ import { BrainCircuit, HeartPulse } from 'lucide-react';
 
 export function HealthSection() {
   return (
-    <>
+    <div className="text-center">
       <div className="flex justify-center items-center gap-4 mb-8">
         <AnimatedText>
           <BrainCircuit size={48} />
@@ -18,6 +18,6 @@ export function HealthSection() {
       <AnimatedText el="p" className="mt-4 text-lg md:text-xl max-w-2xl mx-auto font-body" delay={0.3}>
         Cultivate a sound mind and a strong body. True strength is holistic, balancing mental clarity with physical vitality. Prioritize self-care as the foundation of all achievement.
       </AnimatedText>
-    </>
+    </div>
   );
 }

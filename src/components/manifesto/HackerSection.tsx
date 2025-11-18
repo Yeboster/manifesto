@@ -3,7 +3,7 @@ import { Code, Search } from 'lucide-react';
 
 export function HackerSection() {
   return (
-    <>
+    <div className="text-center">
        <div className="flex justify-center items-center gap-4 mb-8">
         <AnimatedText>
           <Code size={48} />
@@ -18,6 +18,6 @@ export function HackerSection() {
       <AnimatedText el="p" className="mt-4 text-lg md:text-xl max-w-2xl mx-auto font-body" delay={0.3}>
         Think like an outlier, investigate like a detective. Challenge assumptions, deconstruct problems, and find the elegant solution hidden in plain sight.
       </AnimatedText>
-    </>
+    </div>
   );
 }
