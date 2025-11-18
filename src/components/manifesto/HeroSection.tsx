@@ -3,7 +3,7 @@ import { AnimatedText } from './AnimatedText';
 export function HeroSection() {
   return (
     <>
-      <AnimatedText el="h1" className="font-headline text-6xl md:text-8xl lg:text-9xl xl:text-[clamp(3rem,14vw,12rem)] leading-none tracking-tighter uppercase">
+      <AnimatedText el="h1" className="font-headline font-bold text-7xl md:text-9xl lg:text-[clamp(4rem,15vw,14rem)] leading-none tracking-tighter uppercase">
         Manifesto
       </AnimatedText>
       <AnimatedText el="p" className="mt-4 text-lg md:text-xl max-w-2xl mx-auto font-body" delay={0.2}>
